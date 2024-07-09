@@ -1,0 +1,144 @@
+2024-04-25T02:07:41+00:00 ERROR API error: Array
+(
+    [url] => https://paypalconnect.paymentplugins.com/v1/customer
+    [method] => POST
+    [http_status] => 400
+    [request] => Array
+(
+    [environment] => sandbox
+    [request] => Array
+        (
+            [tracking_id] => XlVFLkx8qIRNBTDCn3KYcRIsDvEm0thp
+            [partner_config_override] => Array
+                (
+                    [return_url] => https://paypalconnect.paymentplugins.com/v1/redirect?redirectUrl=http%3A%2F%2Flocalhost%2Fpotabilizadora%2Fwp-admin%2Fadmin.php%3Fpage%3Dwc-settings%26tab%3Dcheckout%26section%3Dppcp_api%26_connect_nonce%3De93f8506fd%26environment%3Dsandbox
+                )
+
+            [operations] => Array
+                (
+                    [0] => Array
+                        (
+                            [operation] => API_INTEGRATION
+                            [api_integration_preference] => Array
+                                (
+                                    [rest_api_integration] => Array
+                                        (
+                                            [integration_method] => PAYPAL
+                                            [integration_type] => FIRST_PARTY
+                                            [first_party_details] => Array
+                                                (
+                                                    [features] => Array
+                                                        (
+                                                            [0] => PAYMENT
+                                                            [1] => REFUND
+                                                            [2] => TRACKING_SHIPMENT_READWRITE
+                                                        )
+
+                                                    [seller_nonce] => B41iNKs1aoIjwpDBKRDiAepEGTidBMRWhT4FJ59zqLgCxIYExK6z65GoR0shnts2
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [products] => Array
+                (
+                    [0] => EXPRESS_CHECKOUT
+                )
+
+            [legal_consents] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => SHARE_DATA_CONSENT
+                            [granted] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+    [error] => Array
+        (
+            [message] => cURL error 6: Couldn't resolve host 'paypalconnect.paymentplugins.com'
+        )
+
+)
+2024-04-25T02:07:41+00:00 ERROR API error: Array
+(
+    [url] => https://paypalconnect.paymentplugins.com/v1/customer
+    [method] => POST
+    [http_status] => 400
+    [request] => Array
+(
+    [environment] => production
+    [request] => Array
+        (
+            [tracking_id] => iDAq1MVqboBIJYtCfJJvXaY14vCqu1Ps
+            [partner_config_override] => Array
+                (
+                    [return_url] => https://paypalconnect.paymentplugins.com/v1/redirect?redirectUrl=http%3A%2F%2Flocalhost%2Fpotabilizadora%2Fwp-admin%2Fadmin.php%3Fpage%3Dwc-settings%26tab%3Dcheckout%26section%3Dppcp_api%26_connect_nonce%3De93f8506fd%26environment%3Dproduction
+                )
+
+            [operations] => Array
+                (
+                    [0] => Array
+                        (
+                            [operation] => API_INTEGRATION
+                            [api_integration_preference] => Array
+                                (
+                                    [rest_api_integration] => Array
+                                        (
+                                            [integration_method] => PAYPAL
+                                            [integration_type] => FIRST_PARTY
+                                            [first_party_details] => Array
+                                                (
+                                                    [features] => Array
+                                                        (
+                                                            [0] => PAYMENT
+                                                            [1] => REFUND
+                                                            [2] => TRACKING_SHIPMENT_READWRITE
+                                                        )
+
+                                                    [seller_nonce] => ChLdvhKYNwF5mvPXiLHqjxIkEFgSWAfGCII8GXHnQCqy9o24DA8uLhZ9OrIDKLuP
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [products] => Array
+                (
+                    [0] => EXPRESS_CHECKOUT
+                )
+
+            [legal_consents] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => SHARE_DATA_CONSENT
+                            [granted] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+    [error] => Array
+        (
+            [message] => cURL error 6: Couldn't resolve host 'paypalconnect.paymentplugins.com'
+        )
+
+)

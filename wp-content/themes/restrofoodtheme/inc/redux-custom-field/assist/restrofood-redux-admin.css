@@ -1,0 +1,41 @@
+.select2-drop,
+.select2-chosen,
+.seticon{
+  font-family: FontAwesome, sans-serif;
+}
+.showicon{
+	background-color: #008ec2;
+    color: #fff;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 10px 0px;
+    display: inline-block;
+	cursor: pointer;
+}
+.iconbox {
+	overflow-y: scroll;
+    height: 300px;
+	display: none;
+	border: 1px solid #eee;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+}
+.seticon{
+    margin: 5px 2px;
+    float: left;
+    width: 23%;
+    border: 1px solid #eee;
+    text-align: center;
+    height: 40px;
+	padding:2px;
+	cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchfield {
+	/* max-width: 532px !important; */
+    width: 100%;
+	margin: 10px 0px;
+    padding: 10px !important;
+}
